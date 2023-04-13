@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./first-component.component.css']
 })
 export class FirstComponentComponent {
-data="";
-reset_val()
-{
-  this.data="";
-}
+  data="";
+  reset_val()
+  {
+    this.data="";
+  }
 }

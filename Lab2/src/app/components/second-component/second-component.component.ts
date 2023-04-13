@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+
 @Component({
   selector: 'app-second-component',
   templateUrl: './second-component.component.html',
-  styleUrls: ['./second-component.component.css'],
+  styleUrls: ['./second-component.component.css']
 })
 export class SecondComponentComponent {
   noImgs = 5;
@@ -37,7 +38,7 @@ export class SecondComponentComponent {
       }
     }
   }
-  
+
   startAutoSlider() {
     this.interval = setInterval(() => {
       this.index = (this.index + 1) % this.noImgs;
