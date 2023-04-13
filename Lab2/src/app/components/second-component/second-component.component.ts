@@ -15,15 +15,15 @@ export class SecondComponentComponent {
   prevDisabled = true;
   imgUrl = `assets/images/${this.index}.jpg`;
   showNextImg() {
-    if (this.index > 0) {
-      this.prevDisabled = false;
-    }
     if (this.index < this.noImgs - 1) {
       this.index++;
       this.imgUrl = `assets/images/${this.index}.jpg`;
       if (this.index == this.noImgs - 1) {
         this.nextDisabled = true;
       }
+    }
+    if (this.index > 0) {
+      this.prevDisabled = false;
     }
   }
   showPrevImg() {
