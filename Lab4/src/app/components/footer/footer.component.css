@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  line-height: 20px;
+  background-color: #1976d2;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+}
+
+footer a:hover {
+  transform: translateY(-3px);
+  text-decoration: underline;
+}
+

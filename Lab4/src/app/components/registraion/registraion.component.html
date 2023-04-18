@@ -1,0 +1,32 @@
+<div class="card border rounded-5 shadow-lg w-50 mx-auto">
+  <form class="mt-4 p-4" (ngSubmit)="Add()" [formGroup]="validationForm">
+    <h6 class="text-center  fw-bold"><i class="bi bi-person-fill-add me-1"></i> Registration</h6>
+    <div class="form-group mb-2">
+      <label for="exampleInputName" class="mb-1">Name</label>
+      <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Name"
+        formControlName="name">
+      <div class="alert alert-danger p-1 mt-2" role="alert" *ngIf="!NameValid">
+        Name must be more than 3 chars
+      </div>
+    </div>
+    <div class="form-group mb-2">
+      <label for="exampleInputEmail" class="mb-1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email" formControlName="email">
+      <div class="alert alert-danger p-1 mt-2" role="alert" *ngIf="!EmailValid">
+        Email must be required and like this pattern example@example1.xyz
+      </div>
+    </div>
+    <div class="form-group mb-2">
+      <label for="exampleInputAge" class="mb-1">Age</label>
+      <input type="text" class="form-control" id="exampleInputAge" placeholder="Age" formControlName="age">
+      <div class="alert alert-danger p-1 mt-2" role="alert" *ngIf="!AgeValid">
+        Age must be 20 &lt; Age &lt; 40
+      </div>
+    </div>
+    <div class="form-group text-center mt-2">
+      <input class="btn btn-outline-primary" id="nm" type="submit" value="Register" />
+    </div>
+  </form>
+  <div class="alert alert-success p-1 mt-2 text-center w-50 mx-auto" role="alert" *ngIf="validForm">
+    Student Added Successfully </div>
+</div>

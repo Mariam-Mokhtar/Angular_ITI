@@ -1,0 +1,19 @@
+<h2 class="mb-4">Students Tables</h2>
+<div class="wrap">
+  <table class="table table-striped">
+    <thead class="table-light">
+      <th scope="col" class="p-2">#</th>
+      <th scope="col" class="p-2">Name</th>
+      <th scope="col" class="p-2">Age</th>
+      <th scope="col" class="p-2">Show</th>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr *ngFor="let s of Students; index as i">
+        <td>{{i+1}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.age}}</td>
+        <td><a class="btn btn-primary" routerLink="/students/1">More</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
