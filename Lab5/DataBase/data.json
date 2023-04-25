@@ -1,11 +1,11 @@
 {
   "students": [
     {
-      "id": 1,
       "name": "Mariam Mokhtar",
-      "age": 23,
+      "age": "25",
       "email": "Mariam@gmail.com",
-      "phone": "01201054687"
+      "phone": "01201054688",
+      "id": 1
     },
     {
       "id": 2,
@@ -43,10 +43,10 @@
       "phone": "01050122554"
     },
     {
-      "name": "Tia Aly",
-      "age": "40",
-      "email": "tia@gmail.com",
-      "phone": "01255555555",
+      "name": "Tia Aly Mohamed",
+      "age": "21",
+      "email": "Tia@gmail.com",
+      "phone": "01050222554",
       "id": 7
     }
   ]
