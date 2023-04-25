@@ -1,0 +1,21 @@
+<div *ngIf="student else loading" class="wrap">
+  <div class="card-container">
+    <div class="top-card"></div>
+    <div class="top-card2"></div>
+    <div class="circle"></div>
+    <img class="image-class" src="assets\images\student.jpg">
+    <p class="title-text mb-4">{{student.name}}</p>
+    <div class="mt-2">
+      <p class="info-text "><span>Email: </span>{{student.email}}</p>
+      <p class="info-text "><span>Phone: </span>{{student.phone}}</p>
+      <p class="info-text "><span>Age: </span>{{student.age}} years old</p>
+    </div>
+
+
+  </div>
+</div>
+
+<ng-template #loading>
+<app-loading></app-loading>
+</ng-template>
+

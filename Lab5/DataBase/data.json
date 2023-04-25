@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Mariam Mokhtar",
+      "age": 23,
+      "email": "Mariam@gmail.com",
+      "phone": "01201054687"
+    },
+    {
+      "id": 2,
+      "name": "Ghina Amir",
+      "age": 20,
+      "email": "Ghina@gmail.com",
+      "phone": "01220122541"
+    },
+    {
+      "id": 3,
+      "name": "Sama Mohamed",
+      "age": 18,
+      "email": "Sama@gmail.com",
+      "phone": "01220122874"
+    },
+    {
+      "id": 4,
+      "name": "Sondos Mohamed",
+      "age": 19,
+      "email": "Sondos@gmail.com",
+      "phone": "01220122554"
+    },
+    {
+      "id": 5,
+      "name": "Yosra Mohamed",
+      "age": 21,
+      "email": "Yosra@gmail.com",
+      "phone": "01000122554"
+    },
+    {
+      "id": 6,
+      "name": "Rana Mohamed",
+      "age": 21,
+      "email": "Rana@gmail.com",
+      "phone": "01050122554"
+    },
+    {
+      "name": "Tia Aly",
+      "age": "40",
+      "email": "tia@gmail.com",
+      "phone": "01255555555",
+      "id": 7
+    }
+  ]
+}
