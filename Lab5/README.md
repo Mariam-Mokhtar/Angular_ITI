@@ -1,27 +1,33 @@
-# FinalLab
+# Students_Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+## INTRODUCTION
+A simple student blog built using Angular uses "Reactive Routing" for the user interface.For registering new students and viewing a list of students and their details
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## FEATURES
+- Table of All available Students 
+- Get details for each student by id
+- Register new student with vaildation 
+- Update student details 
+- Delete student by id 
 
-## Code scaffolding
+## Installation 
+To Install this project follow these steps:
+- Clone repo
+- Install the dependencies witn npm install
+- Run Json Server with json-server --watch data.json
+- Run the application with ng serve
+## DEMO
+🎬
+We Hope That You are enjoying Watching My Demo Video 
+https://user-images.githubusercontent.com/83876328/234389932-9a5c8cd2-769e-4740-be07-a3c86c1cd213.mp4
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## SUPPORT
+If you like my work, feel free to </br>
+⭐ this repository. It helps.
 
-## Build
+  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
