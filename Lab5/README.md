@@ -20,7 +20,7 @@ To Install this project follow these steps:
 ## DEMO
 🎬
 We Hope That You are enjoying Watching My Demo Video 
-https://user-images.githubusercontent.com/83876328/234389932-9a5c8cd2-769e-4740-be07-a3c86c1cd213.mp4
+(https://user-images.githubusercontent.com/83876328/234389932-9a5c8cd2-769e-4740-be07-a3c86c1cd213.mp4)
 
 ## SUPPORT
 If you like my work, feel free to </br>
